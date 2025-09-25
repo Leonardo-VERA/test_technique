@@ -30,7 +30,7 @@ try:
 except requests.RequestException as e:
     raise SystemExit(f"Error: {e}")
 
-# process the response with 2 spaces indentation and save
+    # process the response with 2 spaces indentation and save
 data = resp.json()
 out_path = repo_root / "outputs" / "resultats_scaleserp.json"
 

@@ -19,21 +19,36 @@ Le test est divisé en trois parties :
 
 - Tree repo
 
-    ```bash
-    test_technique/
-    ├── exercise1/ # Projet Scrapy
-    │ ├── exercise1/spiders/hacknewsspider.py
-    │ ├── output.json / output.csv
-    │ ├── README.md # Doc spécifique Exercice 1
-    │ └── scrapy.cfg
-    │
-    ├── exercise2_scaleserp/ # Script API ScaleSERP
-    │ ├── query_scaleserp.py
-    │ ├── resultats.json
-    │ └── README.md # Doc spécifique Exercice 2
-    │
-    ├── requirements.txt # Dépendances globales
-    └── README.md # Ce fichier (guide général)
+   ```bash
+   ├── test_technique/
+   ├── docs
+   │   ├── README_ex1.md # Doc spécifique Exercice 1
+   │   └── README_ex2.md # Doc spécifique Exercice 2
+   ├── exercise1 # Projet Scrapy
+   │   ├── exercise1
+   │   │   ├── __init__.py
+   │   │   ├── items.py
+   │   │   ├── middlewares.py
+   │   │   ├── pipelines.py
+   │   │   ├── __pycache__
+   │   │   │   ├── __init__.cpython-310.pyc
+   │   │   │   └── settings.cpython-310.pyc
+   │   │   ├── settings.py
+   │   │   └── spiders
+   │   │       ├── hacknewsspider.py
+   │   │       ├── __init__.py
+   │   │       └── __pycache__
+   │   │           ├── hacknewsspider.cpython-310.pyc
+   │   │           └── __init__.cpython-310.pyc
+   │   └── scrapy.cfg
+   ├── exercise2_scaleserp # Script API ScaleSERP
+   │   └── query_scaleserp.py
+   ├── outputs
+   │   ├── output_exo1.csv
+   │   ├── output_exo1.json
+   │   └── resultats_scaleserp.json
+   ├── README.md
+   ├── requirements.txt # Dépendances globales
 
 ---
 

@@ -52,8 +52,8 @@ Le projet Scrapy est situé dans le dossier exercise1/ :
 2. Lancer le spider et sauvegarder les résultats au format JSON :
 
     ```bash
-    scrapy crawl hacknews -O outputs/output.json # .json
-    scrapy crawl hacknews -O outputs/output.csv # .csv
+    scrapy crawl hacknews -O ../outputs/output.json # .json
+    scrapy crawl hacknews -O ../outputs/output.csv # .csv
 
 Le spider va automatiquement parcourir plusieurs pages grâce au bouton More.
 
