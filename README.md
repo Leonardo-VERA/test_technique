@@ -41,7 +41,7 @@ Le test est divisé en trois parties :
 
 1. Cloner le dépôt et créer un environnement virtuel :
    ```bash
-   git clone <URL>
+   git clone https://github.com/Leonardo-VERA/test_technique.git
    cd test_technique
    python -m venv .venv
    source .venv/bin/activate

@@ -1,0 +1,20 @@
+# variables
+.venv/
+venv/
+env/
+
+#cache python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#variable environement
+.env
+
+# results 
+*.json
+*.csv
+*.log
+
+*.zip
